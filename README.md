@@ -1,27 +1,23 @@
-# Addis-Cars Image-Classifier
-This image classifier is a ersonal project where I’m collecting a real-world dataset of popular cars in Addis Ababa and training a TensorFlow image classifier. Still a work-in-progress . Part of  learning ML fundamentals and improving the project every day.
+# Addis Cars Image Classifier
 
-Overview
+A TensorFlow project to classify popular car models seen in Addis Ababa (Ethiopia).
 
-This project aims to build an image classifier that recognizes the most common car models in Addis Ababa.
-The dataset is collected manually using a web scraper primarly from google images and Ecommerce sites , and the goal is to train a TensorFlow/Keras model and eventually build a simple application using the trained classifier.
->Current Status
+## Why this project?
+- Learn ML basics hands-on
+- Create something useful for the Ethiopian context
+- Build an end-to-end portfolio piece
 
-- Dataset collected (approximately 60 images per class for 20 car types)
+## Current Status
+- Dataset: ~60 images per class × 20 car types (collected from public sources)
+- Code: Basic structure ready (preprocessing, training, utils)
+- Next: Train model, show accuracy, add simple demo
 
-- Dataset organized into class-specific folders
+## How to Run (once code is added)
+1. Clone repo: `git clone https://github.com/Henok-Tekeba/Addis-Cars-Image-Classifier.git`
+2. Install packages: `pip install -r requirements.txt`
+3. Run preprocessing: `python Preprocess.py`
+4. Train model: `python Train.py`
 
-- Preparing the dataset for training
-
->Then
-Model training and evaluation will follow
-
-A simple API or frontend will be added later
-
-> Purpose of the Project
-
-- To gain hands-on experience with machine learning
-
-- To build a complete end-to-end project
-
-- To create something relevant to the Ethiopian context
+## Future Plans
+- Improve accuracy with transfer learning
+- Build a simple web app (Streamlit or Flask) to upload photos and get predictions
