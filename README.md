@@ -9,10 +9,11 @@ A TensorFlow project to classify popular car models seen in Addis Ababa (Ethiopi
 
 ## Current Status
 - Dataset: ~60 images per class × 20 car types (collected from public sources)
+- The whole dataset is uploaded on kaggle and can be requested using this link 
 - Code: Basic structure ready (preprocessing, training, utils)
 - Next: Train model, show accuracy, add simple demo
 
-## How to Run (once code is added)
+## How to Run 
 1. Clone repo: `git clone https://github.com/Henok-Tekeba/Addis-Cars-Image-Classifier.git`
 2. Install packages: `pip install -r requirements.txt`
 3. Run preprocessing: `python Preprocess.py`
